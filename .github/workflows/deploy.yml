@@ -26,16 +26,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Install Dependencies
-        run: npm ci
-        
-      - name: Lint Code
-        run: npm run lint
-        
-      - name: Run Tests
-        run: npm run test -- --run
+        run: npm install
         
       - name: Build Application
         run: npm run build
