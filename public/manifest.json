@@ -1,0 +1,26 @@
+{
+  "name": "QC Inspector - Control Calitate",
+  "short_name": "QC Inspector",
+  "description": "Aplicație pentru controlul calității materialelor feroase",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/qc-inspection-app/",
+  "icons": [
+    {
+      "src": "/qc-inspection-app/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/qc-inspection-app/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"]
+}

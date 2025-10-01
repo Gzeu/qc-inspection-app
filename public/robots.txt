@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gzeu.github.io/qc-inspection-app/sitemap.xml
